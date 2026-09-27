@@ -10,22 +10,22 @@ const features = [
 const bottomPhotos = [
   {
     title: "Product 1",
-    src: "/product2.jpg",
+    src: "/product2.webp",
     rotate: "-rotate-2 hover:rotate-0",
   },
   {
     title: "Product 2",
-    src: "/product3.jpg",
+    src: "/product3.webp",
     rotate: "rotate-1 hover:rotate-0",
   },
   {
     title: "Product 3",
-    src: "/product4.jpg",
+    src: "/product4.webp",
     rotate: "-rotate-1 hover:rotate-0",
   },
   {
     title: "Product 4",
-    src: "/product5.jpg",
+    src: "/product5.webp",
     rotate: "rotate-2 hover:rotate-0",
   },
 ]
