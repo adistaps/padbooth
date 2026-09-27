@@ -13,7 +13,7 @@ export function ContactSection() {
           <div className="lg:col-span-5 relative flex items-center justify-center min-h-[240px] sm:min-h-[340px]">
             <div className="relative w-full h-[240px] sm:h-[320px] md:h-[360px]">
               <Image
-                src="/logo3d.png"
+                src="/logo3d.webp"
                 alt="Padbooth 3D Logo"
                 fill
                 className="object-contain object-center drop-shadow-md"
