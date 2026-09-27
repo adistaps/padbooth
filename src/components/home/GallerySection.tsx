@@ -7,12 +7,12 @@ const galleryColumns = [
   [
     {
       title: "Traditional Elegance",
-      src: "/frame (3).jpg",
+      src: "/frame3.webp",
       aspect: "aspect-[3/4]",
     },
     {
       title: "Intimate Moments",
-      src: "/frame (8).jpg",
+      src: "/frame8.webp",
       aspect: "aspect-[3/4]",
     },
   ],
@@ -20,17 +20,17 @@ const galleryColumns = [
   [
     {
       title: "Camera & Sunflowers",
-      src: "/frame (9).jpg",
+      src: "/frame9.webp",
       aspect: "aspect-[16/9]",
     },
     {
       title: "Golden Hour Glow",
-      src: "/product2.jpg",
+      src: "/product2.webp",
       aspect: "aspect-[3/4]",
     },
     {
       title: "Cultural Portrait",
-      src: "/product3.jpg",
+      src: "/product3.webp",
       aspect: "aspect-[4/3]",
     },
   ],
@@ -38,12 +38,12 @@ const galleryColumns = [
   [
     {
       title: "Royal Sunset",
-      src: "/product4.jpg",
+      src: "/product4.webp",
       aspect: "aspect-[3/4]",
     },
     {
       title: "Coastal Breeze",
-      src: "/frame (8).jpg",
+      src: "/frame8.webp",
       aspect: "aspect-[3/4]",
     },
   ],
@@ -51,12 +51,12 @@ const galleryColumns = [
   [
     {
       title: "Dramatic Profile",
-      src: "/frame (3).jpg",
+      src: "/frame3.webp",
       aspect: "aspect-[3/4]",
     },
     {
       title: "Outdoor Adventures",
-      src: "/frame (9).jpg",
+      src: "/frame9.webp",
       aspect: "aspect-[3/4]",
     },
   ],

@@ -89,17 +89,17 @@ export function PartnershipSection() {
           <BentoCard
             title="Aplikasi Monitoring Owner"
             description="Pantau jumlah transaksi, omzet harian, dan sisa kertas foto secara real-time langsung dari smartphone Anda."
-            imageSrc="/cardpart1.png"
+            imageSrc="/cardpart1.webp"
           />
           <BentoCard
             title="Marketing & Promo Support"
             description="Dipromosikan langsung di akun utama Padbooth untuk menarik antusiasme pengunjung di awal pembukaan."
-            imageSrc="/cardpart2.png"
+            imageSrc="/cardpart2.webp"
           />
           <BentoCard
             title="Garansi & Dukungan Teknis"
             description="Garansi spare part utama (kamera/printer) 3 bulan pertama serta dukungan teknis remote untuk software."
-            imageSrc="/cardpart3.png"
+            imageSrc="/cardpart3.webp"
           />
         </div>
 

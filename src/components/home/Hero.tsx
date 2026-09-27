@@ -7,11 +7,11 @@ import { motion, AnimatePresence } from 'framer-motion'
 // Default slider images
 const defaultHeroImages = [
   {
-    src: '/padbooth-hero.png',
+    src: '/padbooth-hero.webp',
     alt: 'Friends laughing inside a Padbooth photobooth',
   },
   {
-    src: '/padbooth-gallery.png',
+    src: '/padbooth-gallery.webp',
     alt: 'Padbooth photobooth moment collage',
   },
 ]
@@ -71,11 +71,10 @@ export function Hero({ images = defaultHeroImages }: { images?: Array<{ src: str
                 className="p-1 -m-1 focus:outline-none"
               >
                 <span
-                  className={`block h-2 rounded-full transition-all duration-300 ${
-                    idx === currentIndex
+                  className={`block h-2 rounded-full transition-all duration-300 ${idx === currentIndex
                       ? 'w-6 sm:w-7 bg-white'
                       : 'w-2 bg-white/40 hover:bg-white/70'
-                  }`}
+                    }`}
                 />
               </button>
             ))}

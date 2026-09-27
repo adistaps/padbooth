@@ -76,7 +76,7 @@ export function EventPackageSection() {
             <div className="absolute inset-4 rounded-full bg-gradient-to-tr from-[#8E211E]/10 to-rose-200/20 blur-2xl -z-10" />
 
             <Image
-              src="/event.png"
+              src="/event.webp"
               alt="Padbooth Event"
               fill
               className="object-contain object-center drop-shadow-[0_20px_30px_rgba(0,0,0,0.12)]"

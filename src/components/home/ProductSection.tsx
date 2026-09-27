@@ -151,7 +151,7 @@ export function ProductSection() {
             style={{ height: 'clamp(320px, 45vw, 520px)', width: 'clamp(280px, 40vw, 540px)' }}
           >
             <Image
-              src="/product1.png"
+              src="/product1.webp"
               alt="Self Photo Kiosk Machine"
               fill
               sizes="(max-width: 1024px) 85vw, 45vw"
