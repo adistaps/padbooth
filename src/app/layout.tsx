@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   description: 'Padbooth menghadirkan photobooth modern untuk momen sehari-hari, event, dan peluang kemitraan di Wonosobo.',
   generator: 'v0.app',
   icons: {
-    icon: '/icon.png',
-    apple: '/icon.png',
+    icon: '/icon.webp',
+    apple: '/icon.webp',
   },
 }
 
