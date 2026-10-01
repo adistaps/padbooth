@@ -1,10 +1,13 @@
 import Image from 'next/image'
 
 const features = [
-  '3 times photos / session',
-  '1 pc 4R or 2 pcs cutstrip print out',
-  'All the soft files can be downloaded',
-  'Payment using QRIS',
+  'Sesi foto dengan durasi 7-10 menit',
+  '2 pcs Strip foto ukuran 2R',
+  'Soft File Photo',
+  'Video Live',
+  'GIF',
+  '*Custom frame by request customer (Custom Frame) ',
+
 ]
 
 const bottomPhotos = [

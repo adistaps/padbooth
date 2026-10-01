@@ -3,10 +3,18 @@ import Image from 'next/image'
 import { ArrowUpRight, MapPin, Plus } from 'lucide-react'
 
 const locations = [
-  { name: 'Kopi Kulo Wonosobo', address: 'Jl. A. Yani, Wonosobo', color: 'blue' },
-  { name: 'Kedai 28', address: 'Jl. Pasukan Ronggolawe', color: 'coral' },
-  { name: 'Resto pilihanmu', address: 'Coming to a spot near you', color: 'cream' },
-  { name: 'Spot Tambahan', address: 'Segera Hadir di Kota Anda', color: 'cream' },
+  { 
+    name: 'Padbooth & Kedai Seblak Katta', 
+    address: 'Kenjer RT 04, RW.06, Kenjer, Kertek, Kec. Kertek, Kabupaten Wonosobo, Jawa Tengah 56371', 
+    color: 'blue',
+    mapUrl: 'https://maps.app.goo.gl/M9krT4Vc6y9kDWNq6'
+  },
+  { 
+    name: 'Double U Coffee & Working Space', 
+    address: 'Jalan Tentara Pelajar 4, Wonosobo Barat, Wonosobo Timur, Wonosobo Tim., Kec. Wonosobo, Kabupaten Wonosobo, Jawa Tengah 56311', 
+    color: 'coral',
+    mapUrl: 'https://maps.app.goo.gl/Ff85DZHXkLyhxCHP7'
+  },
 ]
 
 export function LocationSection() {
@@ -41,39 +49,44 @@ export function LocationSection() {
         <div className="relative w-full">
           <div className="flex overflow-x-auto gap-4 md:gap-6 pb-6 pt-2 scrollbar-none snap-x snap-mandatory pr-28 sm:pr-36 md:pr-48 lg:pr-56">
             {locations.map((location, index) => (
-              <article
+              <a
                 key={location.name}
-                className="group bg-white rounded-[2rem] p-3 flex flex-col justify-between border border-neutral-200/80 shadow-sm hover:shadow-md transition-all duration-300 w-[260px] sm:w-[320px] md:w-[360px] shrink-0 snap-start"
+                href={location.mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-white rounded-[2rem] p-3 flex flex-col justify-between border border-neutral-200/80 shadow-sm hover:shadow-md transition-all duration-300 w-[260px] sm:w-[320px] md:w-[360px] shrink-0 snap-start cursor-pointer block"
               >
-                {/* Area Gambar / Visual Box */}
-                <div className="relative aspect-[4/3] w-full rounded-2xl bg-[#e3e3e3] overflow-hidden p-4">
-                  {/* Badge Nomor di Atas */}
-                  <div className="flex items-center justify-between">
-                    <span className="inline-flex items-center gap-1.5 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold text-neutral-800">
-                      <MapPin size={12} />
-                      0{index + 1}
-                    </span>
-                  </div>
-                </div>
-
-                {/* Bottom Card Info (Informasi Nama & Alamat) */}
-                <div className="bg-white rounded-2xl p-4 mt-2 flex items-center justify-between">
-                  <div>
-                    <h3 className="font-bold text-lg text-neutral-900 line-clamp-1">
-                      {location.name}
-                    </h3>
-                    <p className="text-xs text-neutral-500 line-clamp-1 mt-0.5">
-                      {location.address}
-                    </p>
+                <article className="h-full flex flex-col justify-between">
+                  {/* Area Gambar / Visual Box */}
+                  <div className="relative aspect-[4/3] w-full rounded-2xl bg-[#e3e3e3] overflow-hidden p-4">
+                    {/* Badge Nomor di Atas */}
+                    <div className="flex items-center justify-between">
+                      <span className="inline-flex items-center gap-1.5 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-semibold text-neutral-800">
+                        <MapPin size={12} />
+                        0{index + 1}
+                      </span>
+                    </div>
                   </div>
 
-                  {/* Action Button */}
-                  <div className="flex items-center gap-1 text-xs font-bold text-neutral-800 uppercase tracking-wider pl-2 shrink-0">
-                    <span className="hidden sm:inline">VIEW</span>
-                    <Plus size={16} className="group-hover:rotate-90 transition-transform duration-300" />
+                  {/* Bottom Card Info (Informasi Nama & Alamat) */}
+                  <div className="bg-white rounded-2xl p-4 mt-2 flex items-center justify-between">
+                    <div>
+                      <h3 className="font-bold text-lg text-neutral-900 line-clamp-1 group-hover:text-[#8E211E] transition-colors">
+                        {location.name}
+                      </h3>
+                      <p className="text-xs text-neutral-500 line-clamp-1 mt-0.5">
+                        {location.address}
+                      </p>
+                    </div>
+
+                    {/* Action Button */}
+                    <div className="flex items-center gap-1 text-xs font-bold text-neutral-800 uppercase tracking-wider pl-2 shrink-0">
+                      <span className="hidden sm:inline">VIEW</span>
+                      <Plus size={16} className="group-hover:rotate-90 transition-transform duration-300" />
+                    </div>
                   </div>
-                </div>
-              </article>
+                </article>
+              </a>
             ))}
           </div>
         </div>

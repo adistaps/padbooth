@@ -87,10 +87,10 @@ export function AboutCard() {
               {/* Deskripsi: Rata Kiri di Mobile */}
               <div className="space-y-2.5 text-neutral-800 font-bold text-sm sm:text-base leading-relaxed max-w-2xl text-left mb-6">
                 <p>
-                  Padbooth adalah layanan photobooth modern di Wonosobo yang hadir di berbagai kafe & resto favorit untuk mengabadikan setiap momen dan cerita berharga Anda.
+                  Perusahaan photobooth yang memadukan teknologi dan fotografi. Menghadirkan keseruan dan mengabadikan setiap cerita berharga yang layak untuk dikenang.
                 </p>
                 <p>
-                  Beroperasi secara profesional sejak 2025, kami menghadirkan frame kekinian, hasil foto berkualitas, serta pengalaman berfoto yang mudah dan menyenangkan.
+                  Padbooth hadir dengan sistem  yang profesional dan pengelolaan yang terintegrasi. memberikan tampilan yang menarik dan inovasi yang sesuai dengan kebutuhan berbagai kalangan.  Kami ingin setiap pelanggan mendapatkan pengalaman yang menyenangkan saat menggunakannya.
                 </p>
               </div>
 
